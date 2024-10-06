@@ -17,6 +17,7 @@ int binarySearch(int low,int high){
         }
         
     }
+    return -1;
 }
 int main(){
     cout<<"Enter size of an array: ";
