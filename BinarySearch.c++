@@ -9,11 +9,11 @@ int binarySearch(int low,int high){
             return mid;
         }
         else if(array[mid]>x){
-            high=mid+1;
+            high=mid-1;
         }
         else
         {
-            low=mid-1;
+            low=mid+1;
         }
         
     }
