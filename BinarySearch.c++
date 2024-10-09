@@ -29,7 +29,7 @@ int main(){
     }
     cout<<"Enter the number to be searhed: ";
     cin>>x;
-    int result=binarySearch(0,n);
+    int result=binarySearch(0,n-1);
     if(result==-1){
         cout<<"Element not found in array";
     }
