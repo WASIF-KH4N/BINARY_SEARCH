@@ -3,7 +3,7 @@
 using namespace std;
  int array[8],n,x;
 int binarySearch(int low,int high){
-    while(low<high){
+    while(low<=high){
         int mid=(low+high)/2;
         if (array[mid]==x){
             return mid;
